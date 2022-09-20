@@ -1,0 +1,69 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #150b3e;
+  height: 100vh;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 10px;
+}
+.profile-avatar {
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  background-color: #a5a9b8;
+  background-size: cover;
+  text-align: center;
+}
+.symbol {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: black;
+}
+.profile-name {
+  color: #a5a9b8;
+  padding-left: 10px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+h1 {
+  color: #a5a9b8;
+}
+p {
+  color: #a5a9b8;
+}
+.denomination-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.choose-sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-family: 500;
+  margin-top: 16px;
+}

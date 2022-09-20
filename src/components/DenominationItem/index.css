@@ -1,0 +1,14 @@
+.button {
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  background-color: #585076;
+  color: #d4d2db;
+  cursor: pointer;
+  border: 1px solid;
+}
+.denomination-item {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 16px;
+}
